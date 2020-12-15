@@ -1,0 +1,41 @@
+.nav {
+    padding: 0px 0px 0px 2em;
+
+    .nav-item {
+        margin: 0px .5em;
+    }
+}
+
+.nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    color: $text-color;
+    padding: 0px;
+    text-align: center;
+    transition: color .25s ease, background-color .25s ease;
+
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+
+        &.spotify {
+            color: #1DB954;
+        }
+    
+        &.youtube {
+            color: #FF0000;
+        }
+    
+        &.instagram {
+            color: #E1306C;
+        }
+    
+        &.twitter {
+            color: #1DA1F2;
+        }
+    }
+}

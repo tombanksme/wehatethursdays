@@ -1,0 +1,28 @@
+@import 'mixins';
+@import 'variables';
+
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+@import 'components/nav';
+@import 'components/footer';
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: $text-color;
+    background: $primary-color;
+}
+
+.x-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.x-content {
+    .nav {
+        padding: 1em 0px 0px 0px;
+    }
+}
